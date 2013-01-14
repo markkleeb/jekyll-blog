@@ -1,0 +1,427 @@
+ body{
+font-family: helvetica, arial, georgia;
+font-size: large;
+color: white;
+background-color: #4E4848;
+line-height: 1.6em;
+background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
+text-align: left;
+
+
+}
+
+#header {
+      height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+}
+
+#footer{
+      
+      background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
+      width:800px;
+      font-size: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-top: solid 3px;
+      border-color: #4E4848;
+
+      
+}
+
+
+
+@font-face {
+        font-family: BureauAgency;
+        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.otf');
+      }
+       
+      
+
+a:link,
+a:visited{
+       text-decoration:none;
+       color: #8BC53F;
+}
+
+
+#nav a:link,
+#nav a:visited{
+      
+      color: #4E4848;
+
+}
+
+#nav li:hover a {
+       text-decoration: none;
+       color: #8BC53F;       
+}
+
+#frame
+{
+      color: white;
+      font-size: 20px;
+      font-family: georgia;
+      line-height: 1.6em;
+      margin-bottom: 10px;
+      
+}
+
+#frame h2{
+      color: #8BC53F;
+      font-family: BureauAgency;
+      font-size: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 100px;
+      
+}
+
+
+#frame h3{
+      color: #8BC53F;
+      font-size: 40px;
+      font-family: BureauAgency;
+       padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 100px;
+      
+}
+
+#frame p,
+section,
+#content{
+      
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 20px;
+      line-height: 1.6em;
+      padding-left: 100px;
+      
+}
+
+
+
+body.blog #nav li.blog a:link,
+body.blog #nav li.blog a:visited,
+body.about #nav li.about a:link,
+body.about #nav li.about a:visited,
+body.portfolio #nav li.portfolio a:link,
+body.portfolio #nav li.portfolio a:visited,
+body.contact #nav li.contact a:link,
+body.contact #nav li.contact a:visited,
+body.performances #nav li.performances a:link,
+body.performances #nav li.performances a:visited
+{
+      color: #8BC53F;
+       
+}
+
+
+
+body.blog li.blog,
+body.about li.about,
+body.portfolio li.portfolio,
+body.contact li.contact,
+body.performances li.performances,
+#nav li:hover
+{
+      background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
+       color: #8BC53F;
+      
+       
+}
+
+
+#header-pic {
+    width:50em;
+    z-index:900;
+    height:150px;
+}
+
+#nav {
+     
+      background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
+      padding-top: 65px;
+      padding-bottom: 50px;
+      
+}
+ 
+ 
+ ul.menu, ul.menu li, ul.menu ul {
+        list-style: none;
+        z-index: 800;
+        position: absolute;
+        font-family: BureauAgency;
+        font-size: 50px;
+        padding: 20px 10px 20px 10px;
+        
+      }
+
+      ul.menu li {
+      
+       
+        padding: 0px 20px 0px 20px;
+        background-image: url('https://s3.amazonaws.com/kleebtronics-media/img/patterns/dark_brick_wall.png');
+        float: left;
+        position: relative;
+      }
+      
+      
+      
+      #logobox {
+       z-index: 900;
+       float: left;
+      }
+      
+      #logobox img{
+            text-align: left;
+            padding-right: 100px;
+      }
+      
+      
+      
+     #frame,
+     #portfolio
+      {
+            
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom:50px;
+            padding-top: 50px;
+            width: 800px;
+            color: white;
+            font-size: 20px;
+            font-family: BureauAgency;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            margin-bottom: 20px;
+            border-top: solid 3px;
+            border-color: #4E4848;
+
+            
+      }
+      
+      
+    
+
+   
+       
+ 
+body.about #kleeblinks a{
+      text-decoration: underline;
+      color: white;
+      font-size: 0.7em;
+      line-height:0.8em;
+      
+}
+
+h2,
+#upcoming,
+#past
+{
+      color: #8BC53F;
+      font-size: 10px;
+      font-family: BureauAgency;
+      
+}
+
+
+
+.text{
+   
+    text-align:left;
+    color: #8BC53F;
+    padding-bottom: 10px;
+    font-size: 20px;
+      font-family: BureauAgency;
+}
+
+.input{
+      padding-bottom: 10px;
+    text-align:left;
+    font-family:BureauAgency;
+
+}
+
+#image-map {
+      
+      text-align: center;
+      padding-left: 10px;
+      height: 1000px;
+      
+}
+#main-image{
+      background-color: #4E4848;
+      position: absolute;
+      padding: 0px 25px 0px 25px;
+      width: 400px;
+}
+
+#project-title{
+      text-align: left;
+      
+}
+
+#project-year{
+      text-align: right;
+      display: inline;
+}
+
+
+
+
+
+/* portfolio image 
+----------------------------------------*/
+
+#project-image{
+       
+      float:left;
+      display: block;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      width: 380px;
+}
+
+#portfolio-image{
+      float:left;
+      display: block;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      width: 170px;
+
+
+}
+
+
+.hover-image,
+.blog-hover-image{
+      display:none;
+}
+
+
+#project-image a:hover .main-image,
+#portfolio-image a:hover .main{
+    display:none;
+}
+
+#project-image a:hover .blog-hover-image,
+#portfolio-image a:hover .hover-image{
+      
+      display: inline;
+      
+}
+
+
+
+/* blog images 
+----------------------------------------*/
+
+.blog-date{
+position:relative;
+z-index:4;
+text-align: left;
+color: white;
+top:-47;
+background: black;
+width: 75;
+}
+
+
+.blog-image
+{
+position:relative;
+z-index:1;
+top:-65;
+width:380;
+}
+
+.blog-hover-image{
+position:relative;
+z-index:2;
+top:-65;
+width:380;
+}
+
+.blog-title{
+position:relative;
+z-index:3;
+background: rgba(0, 0, 0, 0.7);
+width: 380;
+text-align: left;
+top:20;
+line-height: inherit;
+
+}
+
+.blog-title a,
+.blog-title a:hover
+{
+
+color:#8BC53F;
+text-decoration:none;
+
+}
+
+.pagin{
+
+display:block;
+
+}
+
+
+/* pagination 
+----------------------------------------*/
+
+.pagination{margin:25px 0;}
+.pagination ul{display:inline-block;*display:inline;*zoom:1;margin-left:0;margin-bottom:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);box-shadow:0 1px 2px rgba(0, 0, 0, 0.05);}
+.pagination ul>li{display:inline;}
+.pagination ul>li>a,.pagination ul>li>span{float:left;padding:4px 12px;line-height:25px;text-decoration:none;background-color:#ffffff;border:1px solid #dddddd;border-left-width:0;}
+.pagination ul>li>a:hover,.pagination ul>.active>a,.pagination ul>.active>span{background-color:#f5f5f5;}
+.pagination ul>.active>a,.pagination ul>.active>span{color:#999999;cursor:default;}
+.pagination ul>.disabled>span,.pagination ul>.disabled>a,.pagination ul>.disabled>a:hover{color:#999999;background-color:transparent;cursor:default;}
+.pagination ul>li:first-child>a,.pagination ul>li:first-child>span{border-left-width:1px;-webkit-border-top-left-radius:4px;-moz-border-radius-topleft:4px;border-top-left-radius:4px;-webkit-border-bottom-left-radius:4px;-moz-border-radius-bottomleft:4px;border-bottom-left-radius:4px;}
+.pagination ul>li:last-child>a,.pagination ul>li:last-child>span{-webkit-border-top-right-radius:4px;-moz-border-radius-topright:4px;border-top-right-radius:4px;-webkit-border-bottom-right-radius:4px;-moz-border-radius-bottomright:4px;border-bottom-right-radius:4px;}
+.pagination-centered{text-align:center;}
+.pagination-right{text-align:right;}
+.pagination-large ul>li>a,.pagination-large ul>li>span{padding:11px 19px;font-size:20px;}
+.pagination-large ul>li:first-child>a,.pagination-large ul>li:first-child>span{-webkit-border-top-left-radius:6px;-moz-border-radius-topleft:6px;border-top-left-radius:6px;-webkit-border-bottom-left-radius:6px;-moz-border-radius-bottomleft:6px;border-bottom-left-radius:6px;}
+.pagination-large ul>li:last-child>a,.pagination-large ul>li:last-child>span{-webkit-border-top-right-radius:6px;-moz-border-radius-topright:6px;border-top-right-radius:6px;-webkit-border-bottom-right-radius:6px;-moz-border-radius-bottomright:6px;border-bottom-right-radius:6px;}
+.pagination-mini ul>li:first-child>a,.pagination-small ul>li:first-child>a,.pagination-mini ul>li:first-child>span,.pagination-small ul>li:first-child>span{-webkit-border-top-left-radius:3px;-moz-border-radius-topleft:3px;border-top-left-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;border-bottom-left-radius:3px;}
+.pagination-mini ul>li:last-child>a,.pagination-small ul>li:last-child>a,.pagination-mini ul>li:last-child>span,.pagination-small ul>li:last-child>span{-webkit-border-top-right-radius:3px;-moz-border-radius-topright:3px;border-top-right-radius:3px;-webkit-border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;border-bottom-right-radius:3px;}
+.pagination-small ul>li>a,.pagination-small ul>li>span{padding:2px 10px;font-size:13.6px;}
+.pagination-mini ul>li>a,.pagination-mini ul>li>span{padding:1px 6px;font-size:12px;}
+
+/* miscellaneous
+----------------------------------------*/
+
+.post-date {
+  font-size: .9em;
+  margin-bottom: .8em;
+}
+
+
+/* clearfix */
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+* html .group {
+  height: 1%;
+}
+
+*:first-child+html .group {
+  min-height: 1px;
+}
+
+
+

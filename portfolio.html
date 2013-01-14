@@ -1,0 +1,16 @@
+---
+layout: default
+title: Kleebtronics Blog
+---
+
+<div id="image-map">
+
+  
+    {% for post in site.posts %}
+    <div id="portfolio-image">
+    <a class="main-image" href="{{ post.url }}" width="170" height="170"><img class="main" src="{{ post.img }}" width="170"><img class="hover-image" src="{{ post.img-hover }}" display="none" width="170"></a>
+</div>
+
+    {% endfor %}
+
+</div>
