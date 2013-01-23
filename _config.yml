@@ -1,6 +1,7 @@
 name: Kleebtronics Blog
 auto: true
-permalink: /:year/:month/:title/
+permalink: /:title/
+markdown: rdiscount
 paginate: 10
 subscribers: "115"
 tags_path: /tags.html
