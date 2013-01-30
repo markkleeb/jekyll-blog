@@ -35,7 +35,10 @@ text-align: left;
 
 @font-face {
         font-family: BureauAgency;
-        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.otf');
+        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.eot');
+        src: url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.woff') format('woff'),
+              url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.ttf') format('truetype'),
+              url('https://s3.amazonaws.com/kleebtronics-media/fonts/BureauAgency.svg') format('svg');
       }
        
       
