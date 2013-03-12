@@ -306,16 +306,15 @@ h2,
       display:none;
 }
 
-
-#project-image a:hover .main-image,
-#portfolio-image a:hover .main{
+#project-image a:hover
+.blog-image{
     display:none;
 }
 
-#project-image a:hover .blog-hover-image,
-#portfolio-image a:hover .hover-image{
+#project-image a:hover
+.hover-image{
       
-      display: inline;
+      display: block;
       
 }
 
