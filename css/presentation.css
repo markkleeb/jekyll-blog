@@ -1,0 +1,65 @@
+
+.deck-container .slide{
+background-color: black;
+color: white;
+}
+
+
+.deck-container .slide h2, .deck-container .slide a, .deck-container .slide a:visited, .deck-container .slide a:hover{
+color: #8bc53f;
+z-index: 1;
+}
+
+.title{
+background-color: black;
+}
+
+small{
+	text-align:center;
+
+}
+
+.deck-container .slide h1{
+
+	color:white;
+}
+
+.deck-container .slide big{
+color: white;
+
+}
+
+.deck-container .slide h4{
+text-align: center;
+z-index: 1;
+}
+
+.deck-container .slide .back img{
+
+	position: relative;
+	z-index: -1;
+	top: -100px;
+}
+
+.deck-container .slide .back2 img{
+
+	position: relative;
+	z-index: -1;
+	top: -260px;
+}
+
+ .deck-container .slide h3{
+	position: relative;
+	z-index: 1;
+	color: white;
+	background-color: #888;
+
+}
+
+.deck-container .slide .bottom small{
+
+
+	top: 500px;
+	position:relative;
+
+}
