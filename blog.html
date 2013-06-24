@@ -1,29 +1,31 @@
 ---
 layout: default
 title: Kleebtronics Blog
+permalink: /blog/
 ---
 
 
-	<div id="image-map">
-  
-    {% for page in paginator.posts %}
+ 
+   {% for page in paginator.posts %}
+    	{% if page.category == 'blog' %}
     {% cycle '<div class="row">', '' %}
-    <div id="project-image">
-    <a href="{{ page.url }}" width="170" height="170">
-    <img src="{{ page.img }}" width="340"></a>
-    <h3>{{ page.title }}</h3>
     
-</div>
+    
+    <div class="blog-title"><h3>{{ page.title }}</h3></div>
+    <div class="blog-date"><h4>{{ page.date | date:"%b %d, %Y" }}</h4></div>
+    <a class="main-image" href="{{ page.url }}">
+    <img class="blog-image" src="{{ page.img }}" width="200"><img class="hover-image" src="{{ page.img-hover }}" display="none" width="200"></a>
+
 	
 
-	{% cycle '', '</div>' %}
+	{% cycle '',  '</div>' %}
+	{% endif %}
     {% endfor %}
-</div>
-
 
 
 
 <!-- Pagination links -->
+
 <div class="pagination pagination-centered">
 	<ul>
 		{% if paginator.next_page %}
@@ -31,7 +33,7 @@ title: Kleebtronics Blog
 			<a href="/page{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
 			</li>
 		{% else %}
-			<li class="disabled"><a href="#">NO MORE!!!</a></li>
+			<li class="disabled"><a href="#">END</a></li>
 	  {% endif %}
 
 	  {% if paginator.previous_page %}
@@ -47,3 +49,4 @@ title: Kleebtronics Blog
 	  {% endif %}
 	</ul>
 </div>
+
