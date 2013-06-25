@@ -2,51 +2,27 @@
 layout: default
 title: Kleebtronics Blog
 permalink: /blog/
+category: blog
+
 ---
 
 
  
-   {% for page in paginator.posts %}
-    	{% if page.category == 'blog' %}
-    {% cycle '<div class="row">', '' %}
-    
-    
-    <div class="blog-title"><h3>{{ page.title }}</h3></div>
-    <div class="blog-date"><h4>{{ page.date | date:"%b %d, %Y" }}</h4></div>
-    <a class="main-image" href="{{ page.url }}">
-    <img class="blog-image" src="{{ page.img }}" width="200"><img class="hover-image" src="{{ page.img-hover }}" display="none" width="200"></a>
 
-	
+   {% for p in site.posts %}
+    	{% if p.category == 'blog' %}
+    	
+   
+    <div id="blog-image">
 
-	{% cycle '',  '</div>' %}
+     <a class="main-image" href="{{ p.url }}">
+    <div class="blog-title">{{ p.title }}</div>
+    <div class="blog-date">{{ p.date | date:"%b %d, %Y" }}</div>
+    <img class="blog-image" src="{{ p.img }}" width="350"><img class="hover-image" src="{{ p.img-hover }}" display="none" width="350"></a>
+
+	</div>
+
 	{% endif %}
     {% endfor %}
 
-
-
-<!-- Pagination links -->
-
-<div class="pagination pagination-centered">
-	<ul>
-		{% if paginator.next_page %}
-	    <li class="next"> 
-			<a href="/page{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
-			</li>
-		{% else %}
-			<li class="disabled"><a href="#">END</a></li>
-	  {% endif %}
-
-	  {% if paginator.previous_page %}
-	    <li class="prev">
-				{% if paginator.previous_page == 1 %}
-      		<a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
-      	{% else %}
-					<a href="/page{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
-				{% endif %}
-			</li>
-		{% else %}
-			<li class="disabled"><a href="#">Newer Posts &rarr;</a></li>
-	  {% endif %}
-	</ul>
-</div>
 

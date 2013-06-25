@@ -56,7 +56,7 @@ title: Kleebtronics Blog
   </head>
   
   
-   <body class="blog">
+   <body class="{{ page.category }}">
  <div id="header">  
  <div class="row">
   <div class="span2">
@@ -79,6 +79,8 @@ onmouseout="mouseOutMenu()"><a href="mailto:mark.kleback@gmail.com?Subject=Kleeb
 </div>
 </div>
 
+  
+
 <div id="frame">
 
     {{ content }}
@@ -93,7 +95,7 @@ onmouseout="mouseOutMenu()"><a href="mailto:mark.kleback@gmail.com?Subject=Kleeb
 <div id="footer">
 
  <p>
-<small>This blog was created by <a href="http://kleebtronics.com">Mark Kleeb</a> using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://aws.amazon.com/s3/" target="_blank">Amazon S3</a>. Code available on <a href="https://github.com/markkleeb/jekyll-blog" target="_blank">GitHub</a>.
+<small>This site was created by <a href="http://kleebtronics.com">Mark Kleeb</a> using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://aws.amazon.com/s3/" target="_blank">Amazon S3</a>. Code available on <a href="https://github.com/markkleeb/jekyll-blog" target="_blank">GitHub</a>.
  </small></p> 
 
 <ul id = "nav" class="menu">

@@ -1,19 +1,21 @@
 ---
 layout: default
 title: Kleebtronics
----
+category: portfolio
 
+---
 
  
     {% for p in site.posts %}
     	{% if p.category == 'portfolio' %}
     
+    <div id="portfolio-image">
     
    
-    <a class="main-image" href="{{ p.url }}">
-    <img class="blog-image" src="{{ p.img }}" width="150"><img class="hover-image" src="{{ p.img-hover }}" display="none" width="150"></a>
+    <a href="{{ p.url }}">
+    <img class="portfolio-image" src="{{ p.img }}" width="150"><img class="hover-image" src="{{ p.img-hover }}" display="none" width="150"></a>
     
-
+	</div>
 	
 
 	
