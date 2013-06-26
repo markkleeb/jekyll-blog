@@ -281,10 +281,10 @@ h2,
        
       float:left;
       display: block;
-      margin-right: 20px;
+      margin-left: 20px;
       margin-bottom: 20px;
-      width: 150px;
-      height: 150px;
+      width: 175px;
+      height: 175px;
  
       
 }
@@ -301,23 +301,23 @@ h2,
 }
 
 
-.hover-image,
-.blog-hover-image{
-      display:none;
-}
-/*
-#project-image a:hover
-.blog-image{
-    display:none;
+
+
+
+#portfolio-image a:hover .portfolio-image{
+    -webkit-filter: invert(100%);
+    
+
 }
 
-#project-image a:hover
-.hover-image{
-      
-      display: block;
-      
+#blog-image a:hover .blog-image{
+
+    border: 5px groove white;
+
 }
-*/
+
+
+
 
 
 .back{
